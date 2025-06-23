@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "biblio": {
+    "biblio-ng": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -61,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "biblio:build:production"
+              "buildTarget": "biblio-ng:build:production"
             },
             "development": {
-              "buildTarget": "biblio:build:development"
+              "buildTarget": "biblio-ng:build:development"
             }
           },
           "defaultConfiguration": "development"

@@ -1,6 +1,0 @@
-<ul>
-  <li *ngFor="let libro of libros" (click)="onSelect(libro)">
-    {{ libro.titulo }} - {{ libro.autor }}
-    <span *ngIf="libro.leido">✔️</span>
-  </li>
-</ul>
