@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { MisLibros } from './mis-libros/mis-libros';
+import { Nav } from './components/nav/nav';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, MisLibros],
+  imports: [RouterOutlet, Nav],
   templateUrl: './app.html',
-  styleUrl: './app.scss'
+  styleUrl: './app.css'
 })
 export class App {
-  protected title = 'biblio-ng';
+  protected title = 'admin-libros';
 }
