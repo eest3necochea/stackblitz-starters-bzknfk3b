@@ -1,9 +1,15 @@
-<ul class="list-group">
-    <li *ngFor="let book of books" class="list-group-item list-group-item-action" (click)="selectBook(book)">
-      <strong>{{ book.title }}</strong> - <em>{{ book.author }}</em>
-      <span class="badge bg-success ms-2" *ngIf="book.available; else notAvailable">Disponible</span>
-      <ng-template #notAvailable>
-        <span class="badge bg-secondary ms-2">No disponible</span>
-      </ng-template>
-    </li>
-  </ul>
+<h1 class="text-center"></h1>
+<div class="row justify-content-center">
+  <div class="col-md-6">
+    <div class="card mb-3">
+      <ul class="list-group">
+        <li *ngFor="let book of books" class="list-group-item list-group-item-action" (click)="selectBook(book)" style="cursor: pointer;">
+          <strong>{{ book.title }}</strong> - <em>{{ book.author }}</em>
+          <span class="badge bg-success ms-2" *ngIf="book.available; else notAvailable">Disponible</span>
+          <ng-template #notAvailable>
+            <span class="badge bg-secondary ms-2">No disponible</span>
+          </ng-template>
+        </li>
+      </ul>      
+  </div>
+</div>

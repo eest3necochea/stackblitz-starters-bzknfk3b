@@ -12,7 +12,9 @@ import { CommonModule } from '@angular/common';
 export class Admin {
   selectedBook?: Book;
 
+
   onBookSelected(book: Book) {
     this.selectedBook = book;
   }
+
 }
