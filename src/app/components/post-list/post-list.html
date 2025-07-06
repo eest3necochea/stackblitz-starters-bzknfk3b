@@ -1,0 +1,12 @@
+<h3 class="postTitle">Post List</h3>
+<div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card mb-3">
+        <ul class="list-group">
+          <li *ngFor="let post of post" class="list-group-item list-group-item-action" >
+            <strong>{{ post.title }}</strong> - <em>{{ post.body }}</em>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
