@@ -1,6 +1,9 @@
 # AdminLibros
+Dardo Camaño ; DNI:26796903 ; dardo.camano@eest3necochea.edu.ar ; Sede: Quequen
 
-# Documentación de la Aplicación: AdminLibros
+# Documentación de la Aplicación
+
+
 
 ## Descripción General
 **AdminLibros** es una aplicación Angular diseñada para la gestión de libros y publicaciones. La aplicación permite a los usuarios visualizar listas de libros y publicaciones, cambiar el estado de disponibilidad de los libros, y navegar entre diferentes páginas. Utiliza Angular como framework principal, Bootstrap para el diseño responsivo, y `HttpClient` para consumir APIs externas.
